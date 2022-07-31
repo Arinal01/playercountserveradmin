@@ -7,7 +7,7 @@ bot.commands = new Discord.Collection(); // tillader brug af kommando fra ekster
 
 // lavet af legacy#0415
 
-const token = 'OTkxMjU2NTkxNzAzNzUyNzY1.GhIEiW.fo3m5laBP_ol4uNrnwV9W6II0v--qsVfuZMmA4'; //Dette er discord bottens token som den skal bruge til at logge ind med
+const token = 'MTAwMzM0ODk2Mjc4NDMyOTkwOA.G_tBZk.EH6X5pnfP1jJmOfwnwEsy4IpONnO7Lng8L4gCc'; //Dette er discord bottens token som den skal bruge til at logge ind med
 
 fs.readdir("./commands/", (err, files) => { // læser directory omkring commands
     if(err) console.log(err); //logger hvis der er fejl
