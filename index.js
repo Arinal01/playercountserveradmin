@@ -7,7 +7,7 @@ bot.commands = new Discord.Collection(); // tillader brug af kommando fra ekster
 
 // lavet af legacy#0415
 
-const token = 'MTAwMzM0ODk2Mjc4NDMyOTkwOA.G8N8vI.l4cygfJpBsWMNFGCmpEzJCBdgVAJqERjJ7HkpQ';
+const token = 'OTkxMjU2NTkxNzAzNzUyNzY1.GTlZrQ.8CMn28SI9_g-AprKlFqAemNFsm6v511TB1TKBg';
 fs.readdir("./commands/", (err, files) => { // læser directory omkring commands
     if(err) console.log(err); //logger hvis der er fejl
 
